@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  Find By Status Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Find By Status Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 29 20:53:32 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6871 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FindByStatusTest.getByBlankStatus()'><b>getByBlankStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC20 Find by blank status Test Case<br>Parameters: {Status=, ExpectedStatusCode=200, Type=findByblankStatus, TagName=, TagID=, TestCaseID=TC20, TestCase =Find Pets by Status = Sold (All Returned Should Be Sold), ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@31edaa7d</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getByAvailableStatus()'><b>getByAvailableStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC18 Find by Available status Test Case<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=ByAvailable, TagName=, TagID=, TestCaseID=TC18, TestCase =Find Pets with Invalid Status (Returns Empty), ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>2</td>
+<td>tests.FindByStatusTest@31edaa7d</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getBysoldStatus()'><b>getBysoldStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC21 Find by sold status Test Case<br>Parameters: {Status=sold, ExpectedStatusCode=200, Type=BySold, TagName=, TagID=, TestCaseID=TC21, TestCase =Complete Pet Lifecycle (Create → Get → Update → Delete → Verify Deletion), ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@31edaa7d</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getByUnknowStatus()'><b>getByUnknowStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC19 Find by unkonwn status Test Case<br>Parameters: {Status=unknownStatus, ExpectedStatusCode=200, Type=findByUnkonwntatus, TagName=, TagID=, TestCaseID=TC19, TestCase =Find Pets Missing Query Parameter, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@31edaa7d</td></tr>
+</table><p>
+</body>
+</html>

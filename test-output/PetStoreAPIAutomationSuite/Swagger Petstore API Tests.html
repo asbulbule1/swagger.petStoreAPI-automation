@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>TestNG:  Swagger Petstore API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Swagger Petstore API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 31 12:10:20 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>74 seconds (74296 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ScheaValidations.schemavaliationGetResponse()'><b>schemavaliationGetResponse</b><br>Test class: tests.ScheaValidations</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]
+    missing: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]
+
+  Actual: {&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at tests.ScheaValidations.schemavaliationGetResponse(ScheaValidations.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace645794976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645794976'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties ([&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]
+    missing: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]
+
+  Actual: {&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at tests.ScheaValidations.schemavaliationGetResponse(ScheaValidations.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>tests.ScheaValidations@75c56eb9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.DeletePetTest.testdeleteInvalidPetData()'><b>testdeleteInvalidPetData</b><br>Test class: tests.DeletePetTest<br>Test method: TC17 Delete invalid ID pet<br>Parameters: {Status=, ExpectedStatusCode=404, Type=DeleteInvalidPet, TagName=, TagID=, TestCaseID=TC17, TestCase =Delete Pet with Invalid ID, ID=abc, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.DeletePetTest@6f8e8894</td></tr>
+<tr>
+<td title='tests.GetPetTest.getValidPet()'><b>getValidPet</b><br>Test class: tests.GetPetTest<br>Test method: Get exting Pet TC06<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=GetExisting, TagName=, TagID=, TestCaseID=TC06, TestCase =Get Existing Pet by ID, ID=1004, CatID=, CatName=, Notes=, Name=Doggie}</td>
+<td></td>
+<td>2</td>
+<td>tests.GetPetTest@e25951c</td></tr>
+<tr>
+<td title='dataDrivenTests.CreatePetDataDrivenTest.testCreatePet()'><b>testCreatePet</b><br>Test class: dataDrivenTests.CreatePetDataDrivenTest<br>Test method: DDTC1-DDTC3 Data Driven Post Test Cases<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=DataDrivenPost, TagName=Friendly, TagID=5001, TestCaseID=DDTC1, TestCase =dataDrivenTests, ID=7501, CatID=2001, CatName=Dogs, Notes=, Name=Doggie}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.CreatePetDataDrivenTest@2dc9b0f5</td></tr>
+<tr>
+<td title='tests.DeletePetTest.testdeleteAlreadyDeletted()'><b>testdeleteAlreadyDeletted</b><br>Test class: tests.DeletePetTest<br>Test method: Deletting already Delettted Pet TC15 <br>Parameters: {Status=, ExpectedStatusCode=404, Type=AlreadyDeletted, TagName=, TagID=, TestCaseID=TC15, TestCase =Delete Already Deleted Pet, ID=1001, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>3</td>
+<td>tests.DeletePetTest@6f8e8894</td></tr>
+<tr>
+<td title='tests.CreatePetTest.testcreateexistingPetID()'><b>testcreateexistingPetID</b><br>Test class: tests.CreatePetTest<br>Test method: TC04 Post Duplicate Data<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=PostDuplicate, TagName=Adopted, TagID=5003, TestCaseID=TC03, TestCase =Create Duplicate Pet ID, ID=1001, CatID=2003, CatName=Birds, Notes=, Name=AnotherDog}</td>
+<td></td>
+<td>2</td>
+<td>tests.CreatePetTest@77659b30</td></tr>
+<tr>
+<td title='tests.GetPetTest.getNonInvalidPet()'><b>getNonInvalidPet</b><br>Test class: tests.GetPetTest<br>Test method: Get invalid ID Pet TC08<br>Parameters: {Status=, ExpectedStatusCode=404, Type=invalidPetID, TagName=, TagID=, TestCaseID=TC08, TestCase =Get Pet with Invalid ID Format, ID=abc, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.GetPetTest@e25951c</td></tr>
+<tr>
+<td title='dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus()'><b>testFindByStatus</b><br>Test class: dataDrivenTests.FindByStatusDataDrivenTest<br>Test method: DDTC10-DDTC12 Data Driven Get by status Test Cases<br>Parameters: {Status=sold, ExpectedStatusCode=200, Type=DataDrivenGETbystatus, TagName=, TagID=, TestCaseID=DDTC11, TestCase =dataDrivenTests, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.FindByStatusDataDrivenTest@3b5fad2d</td></tr>
+<tr>
+<td title='tests.UpdatePetTest.testupdatewithMissingIDPetData()'><b>testupdatewithMissingIDPetData</b><br>Test class: tests.UpdatePetTest<br>Test method: TC13 Update without ID<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=PutWithoutID, TagName=NewArrival, TagID=5004, TestCaseID=TC13, TestCase =Update Pet Missing ID, ID=, CatID=2008, CatName=SmallPets, Notes=, Name=NoID}</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdatePetTest@4bc222e</td></tr>
+<tr>
+<td title='tests.CreatePetTest.testcreateValidData()'><b>testcreateValidData</b><br>Test class: tests.CreatePetTest<br>Test method: Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05<br>Parameters: {Status=flying, ExpectedStatusCode=200, Type=PostValidInvalid, TagName=Trained, TagID=5005, TestCaseID=TC05, TestCase =Create Pet with Invalid Status, ID=1004, CatID=2005, CatName=Fish, Notes=, Name=InvalidStatus}</td>
+<td></td>
+<td>1</td>
+<td>tests.CreatePetTest@77659b30</td></tr>
+<tr>
+<td title='tests.GetPetTest.nonexistingPet()'><b>nonexistingPet</b><br>Test class: tests.GetPetTest<br>Test method: Get  non exting Pet TC07<br>Parameters: {Status=sold, ExpectedStatusCode=404, Type=GetNonExisting, TagName=, TagID=, TestCaseID=TC07, TestCase =Get Non-Existing Pet, ID=99999999, CatID=, CatName=, Notes=, Name=Ghost}</td>
+<td></td>
+<td>2</td>
+<td>tests.GetPetTest@e25951c</td></tr>
+<tr>
+<td title='tests.UpdatePetTest.testupdateNonexeistingPetData()'><b>testupdateNonexeistingPetData</b><br>Test class: tests.UpdatePetTest<br>Test method: TC11 updating non existing Pet<br>Parameters: {Status=sold, ExpectedStatusCode=200, Type=PutNonExisting, TagName=Trained, TagID=5005, TestCaseID=TC11, TestCase =Update Non-Existing Pet, ID=999999, CatID=2007, CatName=ServiceAnimals, Notes=, Name=Ghost}</td>
+<td></td>
+<td>2</td>
+<td>tests.UpdatePetTest@4bc222e</td></tr>
+<tr>
+<td title='tests.UpdatePetTest.testupdatewithInvaliddatagPetData()'><b>testupdatewithInvaliddatagPetData</b><br>Test class: tests.UpdatePetTest<br>Test method: TC12 update with invalid Json<br>Parameters: {Status=, ExpectedStatusCode=200, Type=Putinvalidata, TagName=, TagID=, TestCaseID=TC12, TestCase =Update Pet with Invalid JSON, ID=1006, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdatePetTest@4bc222e</td></tr>
+<tr>
+<td title='dataDrivenTests.GetPetDataDrivenTest.testGetPet()'><b>testGetPet</b><br>Test class: dataDrivenTests.GetPetDataDrivenTest<br>Test method: DDTC7-DDTC9 DataDriven Get By ID<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenGETbyID, TagName=, TagID=, TestCaseID=DDTC8, TestCase =dataDrivenTests, ID=5557777, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.GetPetDataDrivenTest@5e17553a</td></tr>
+<tr>
+<td title='dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet()'><b>testUpdatePet</b><br>Test class: dataDrivenTests.UpdatePetDataDrivenTest<br>Test method: DDTC4-DDTC6 Data Driven Update Test Cases<br>Parameters: {Status=flying, ExpectedStatusCode=200, Type=DataDrivenPut, TagName=Trained, TagID=5005, TestCaseID=DDTC5, TestCase =dataDrivenTests, ID=7502, CatID=2005, CatName=Fish, Notes=, Name=Kitty}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.UpdatePetDataDrivenTest@3eb91815</td></tr>
+<tr>
+<td title='dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus()'><b>testFindByStatus</b><br>Test class: dataDrivenTests.FindByStatusDataDrivenTest<br>Test method: DDTC10-DDTC12 Data Driven Get by status Test Cases<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=DataDrivenGETbystatus, TagName=, TagID=, TestCaseID=DDTC10, TestCase =dataDrivenTests, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>2</td>
+<td>dataDrivenTests.FindByStatusDataDrivenTest@3b5fad2d</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getBysoldStatus()'><b>getBysoldStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC21 Find by sold status Test Case<br>Parameters: {Status=sold, ExpectedStatusCode=200, Type=BySold, TagName=, TagID=, TestCaseID=TC21, TestCase =Find Pets by Status = Sold (All Returned Should Be Sold), ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@3cfdd820</td></tr>
+<tr>
+<td title='dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet()'><b>testUpdatePet</b><br>Test class: dataDrivenTests.UpdatePetDataDrivenTest<br>Test method: DDTC4-DDTC6 Data Driven Update Test Cases<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=DataDrivenPut, TagName=NewArrival, TagID=5004, TestCaseID=DDTC6, TestCase =dataDrivenTests, ID=7503, CatID=2003, CatName=Birds, Notes=, Name=AnotherDog}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.UpdatePetDataDrivenTest@3eb91815</td></tr>
+<tr>
+<td title='dataDrivenTests.DeletePetDataDrivenTest.testDeletePet()'><b>testDeletePet</b><br>Test class: dataDrivenTests.DeletePetDataDrivenTest<br>Test method: DDTC13-DDTC15 Data Driven Delete Test cases<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenDelete, TagName=, TagID=, TestCaseID=DDTC14, TestCase =dataDrivenTests, ID=9347, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.DeletePetDataDrivenTest@6531a794</td></tr>
+<tr>
+<td title='dataDrivenTests.DeletePetDataDrivenTest.testDeletePet()'><b>testDeletePet</b><br>Test class: dataDrivenTests.DeletePetDataDrivenTest<br>Test method: DDTC13-DDTC15 Data Driven Delete Test cases<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenDelete, TagName=, TagID=, TestCaseID=DDTC15, TestCase =dataDrivenTests, ID=88888, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.DeletePetDataDrivenTest@6531a794</td></tr>
+<tr>
+<td title='dataDrivenTests.GetPetDataDrivenTest.testGetPet()'><b>testGetPet</b><br>Test class: dataDrivenTests.GetPetDataDrivenTest<br>Test method: DDTC7-DDTC9 DataDriven Get By ID<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenGETbyID, TagName=, TagID=, TestCaseID=DDTC7, TestCase =dataDrivenTests, ID=1230005, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.GetPetDataDrivenTest@5e17553a</td></tr>
+<tr>
+<td title='tests.GetPetTest.getDeletedPetTest()'><b>getDeletedPetTest</b><br>Test class: tests.GetPetTest<br>Test method: Get deletted Pet TC09<br>Parameters: {Status=, ExpectedStatusCode=404, Type=DelettedPet, TagName=, TagID=, TestCaseID=TC09, TestCase =Get Deleted or Not Present Pet, ID=1005, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>2</td>
+<td>tests.GetPetTest@e25951c</td></tr>
+<tr>
+<td title='dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet()'><b>testUpdatePet</b><br>Test class: dataDrivenTests.UpdatePetDataDrivenTest<br>Test method: DDTC4-DDTC6 Data Driven Update Test Cases<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=DataDrivenPut, TagName=NewArrival, TagID=5004, TestCaseID=DDTC4, TestCase =dataDrivenTests, ID=7501, CatID=2004, CatName=Reptiles, Notes=, Name=Doggie}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.UpdatePetDataDrivenTest@3eb91815</td></tr>
+<tr>
+<td title='tests.CreatePetTest.testcreateValidData()'><b>testcreateValidData</b><br>Test class: tests.CreatePetTest<br>Test method: Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=PostValidInvalid, TagName=NewArrival, TagID=5004, TestCaseID=TC04, TestCase =Create Pet with Long Name Boundary, ID=1003, CatID=2004, CatName=Reptiles, Notes=, Name=LongNamexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}</td>
+<td></td>
+<td>1</td>
+<td>tests.CreatePetTest@77659b30</td></tr>
+<tr>
+<td title='dataDrivenTests.CreatePetDataDrivenTest.testCreatePet()'><b>testCreatePet</b><br>Test class: dataDrivenTests.CreatePetDataDrivenTest<br>Test method: DDTC1-DDTC3 Data Driven Post Test Cases<br>Parameters: {Status=pending, ExpectedStatusCode=200, Type=DataDrivenPost, TagName=Vaccinated, TagID=5002, TestCaseID=DDTC2, TestCase =dataDrivenTests, ID=7502, CatID=2002, CatName=Cats, Notes=, Name=Kitty}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.CreatePetDataDrivenTest@2dc9b0f5</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getByAvailableStatus()'><b>getByAvailableStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC18 Find by Available status Test Case<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=ByAvailable, TagName=, TagID=, TestCaseID=TC18, TestCase =Find Pets by Status = Available, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>2</td>
+<td>tests.FindByStatusTest@3cfdd820</td></tr>
+<tr>
+<td title='tests.UpdatePetTest.testUpdatePet()'><b>testUpdatePet</b><br>Test class: tests.UpdatePetTest<br>Test method: TC10 update existing pet Data<br>Parameters: {Status=sold, ExpectedStatusCode=200, Type=updateExisting, TagName=NewArrival, TagID=5004, TestCaseID=TC10, TestCase =Update Existing Pet, ID=1001, CatID=2006, CatName=FarmAnimals, Notes=, Name=Doggie}</td>
+<td></td>
+<td>2</td>
+<td>tests.UpdatePetTest@4bc222e</td></tr>
+<tr>
+<td title='dataDrivenTests.DeletePetDataDrivenTest.testDeletePet()'><b>testDeletePet</b><br>Test class: dataDrivenTests.DeletePetDataDrivenTest<br>Test method: DDTC13-DDTC15 Data Driven Delete Test cases<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenDelete, TagName=, TagID=, TestCaseID=DDTC13, TestCase =dataDrivenTests, ID=22222, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.DeletePetDataDrivenTest@6531a794</td></tr>
+<tr>
+<td title='dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus()'><b>testFindByStatus</b><br>Test class: dataDrivenTests.FindByStatusDataDrivenTest<br>Test method: DDTC10-DDTC12 Data Driven Get by status Test Cases<br>Parameters: {Status=pending, ExpectedStatusCode=200, Type=DataDrivenGETbystatus, TagName=, TagID=, TestCaseID=DDTC12, TestCase =dataDrivenTests, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.FindByStatusDataDrivenTest@3b5fad2d</td></tr>
+<tr>
+<td title='tests.CreatePetTest.testcreateValidData()'><b>testcreateValidData</b><br>Test class: tests.CreatePetTest<br>Test method: Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05<br>Parameters: {Status=pending, ExpectedStatusCode=200, Type=PostValidInvalid, TagName=Vaccinated, TagID=5002, TestCaseID=TC02, TestCase =Create Valid Pet - pending status, ID=1002, CatID=2002, CatName=Cats, Notes=, Name=Kitty}</td>
+<td></td>
+<td>1</td>
+<td>tests.CreatePetTest@77659b30</td></tr>
+<tr>
+<td title='dataDrivenTests.CreatePetDataDrivenTest.testCreatePet()'><b>testCreatePet</b><br>Test class: dataDrivenTests.CreatePetDataDrivenTest<br>Test method: DDTC1-DDTC3 Data Driven Post Test Cases<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=DataDrivenPost, TagName=Adopted, TagID=5003, TestCaseID=DDTC3, TestCase =dataDrivenTests, ID=7503, CatID=2003, CatName=Birds, Notes=, Name=AnotherDog}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.CreatePetDataDrivenTest@2dc9b0f5</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getByBlankStatus()'><b>getByBlankStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC20 Find by blank status Test Case<br>Parameters: {Status=, ExpectedStatusCode=200, Type=findByblankStatus, TagName=, TagID=, TestCaseID=TC20, TestCase =Find Pets Missing Query Parameter, ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@3cfdd820</td></tr>
+<tr>
+<td title='dataDrivenTests.GetPetDataDrivenTest.testGetPet()'><b>testGetPet</b><br>Test class: dataDrivenTests.GetPetDataDrivenTest<br>Test method: DDTC7-DDTC9 DataDriven Get By ID<br>Parameters: {Status=, ExpectedStatusCode=200, Type=DataDrivenGETbyID, TagName=, TagID=, TestCaseID=DDTC9, TestCase =dataDrivenTests, ID=99, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>dataDrivenTests.GetPetDataDrivenTest@5e17553a</td></tr>
+<tr>
+<td title='tests.CreatePetTest.testcreateValidData()'><b>testcreateValidData</b><br>Test class: tests.CreatePetTest<br>Test method: Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05<br>Parameters: {Status=available, ExpectedStatusCode=200, Type=PostValidInvalid, TagName=Friendly, TagID=5001, TestCaseID=TC01, TestCase =Create Valid Pet, ID=1001, CatID=2001, CatName=Dogs, Notes=, Name=Doggie}</td>
+<td></td>
+<td>2</td>
+<td>tests.CreatePetTest@77659b30</td></tr>
+<tr>
+<td title='tests.DeletePetTest.testdeletenonExistingPet()'><b>testdeletenonExistingPet</b><br>Test class: tests.DeletePetTest<br>Test method: Deletting non existing Pet TC16 <br>Parameters: {Status=, ExpectedStatusCode=404, Type=DeleteNonExisting, TagName=, TagID=, TestCaseID=TC16, TestCase =Delete Non-Existing Pet, ID=999999, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>2</td>
+<td>tests.DeletePetTest@6f8e8894</td></tr>
+<tr>
+<td title='tests.DeletePetTest.testDeleteExistingPet()'><b>testDeleteExistingPet</b><br>Test class: tests.DeletePetTest<br>Test method: Deletting Existing PetTC14 <br>Parameters: {Status=, ExpectedStatusCode=404, Type=DeleteExisting, TagName=, TagID=, TestCaseID=TC14, TestCase =Delete Existing Pet, ID=1001, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>3</td>
+<td>tests.DeletePetTest@6f8e8894</td></tr>
+<tr>
+<td title='tests.FindByStatusTest.getByUnknowStatus()'><b>getByUnknowStatus</b><br>Test class: tests.FindByStatusTest<br>Test method: TC19 Find by unkonwn status Test Case<br>Parameters: {Status=unknownStatus, ExpectedStatusCode=200, Type=findByUnkonwntatus, TagName=, TagID=, TestCaseID=TC19, TestCase =Find Pets with Invalid Status (Returns Empty), ID=, CatID=, CatName=, Notes=, Name=}</td>
+<td></td>
+<td>1</td>
+<td>tests.FindByStatusTest@3cfdd820</td></tr>
+</table><p>
+</body>
+</html>

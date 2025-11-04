@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStoreAPIAutomationSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    <listener class-name="utils.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Swagger Petstore API Tests(failed)" verbose="0">
+    <classes>
+      <class name="tests.GetPetTest">
+        <methods>
+          <include name="attachLogsToAllure"/>
+          <include name="globalSetup"/>
+          <include name="setupPerTest"/>
+          <include name="getValidPet" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.GetPetTest -->
+      <class name="tests.ScheaValidations">
+        <methods>
+          <include name="attachLogsToAllure"/>
+          <include name="schemavaliationGetResponse"/>
+          <include name="globalSetup"/>
+          <include name="setupPerTest"/>
+        </methods>
+      </class> <!-- tests.ScheaValidations -->
+    </classes>
+  </test> <!-- Swagger Petstore API Tests(failed) -->
+</suite> <!-- Failed suite [PetStoreAPIAutomationSuite] -->

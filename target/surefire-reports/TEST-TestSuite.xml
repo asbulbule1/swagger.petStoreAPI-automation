@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.744" tests="37" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation\target\classes;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Abhishek Bulbule\AppData\Local\Temp\surefire10604880633607021650\surefirebooter-20251104115115143_3.jar C:\Users\Abhishek Bulbule\AppData\Local\Temp\surefire10604880633607021650 2025-11-04T11-51-15_020-jvmRun1 surefire-20251104115115143_1tmp surefire_0-20251104115115143_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation\target\test-classes;C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation\target\classes;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Abhishek Bulbule\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abhishek Bulbule\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Abhishek Bulbule\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Abhishek Bulbule"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Java\jdk-17.0.17_windows-x64_bin\jdk-17.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abhishek Bulbule\AppData\Local\Temp\surefire10604880633607021650\surefirebooter-20251104115115143_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+8-LTS-360"/>
+    <property name="user.name" value="Abhishek Bulbule"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Abhishek Bulbule\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABHISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\Abhishek Bulbule\Downloads\Personal workspace\Personal workspace\PetStoreAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Allure\allure-2.35.1\allure-2.35.1\bin;C:\Java\jdk-17.0.17_windows-x64_bin\jdk-17.0.17\bin;C:\maven\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\Abhishek Bulbule\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.17+8-LTS-360"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testcreateValidData[{Status=available, ExpectedStatusCode=200, TagName=Friendly, TestCaseID=TC01, CatID=2001, CatName=Dogs, Name=Doggie, Type=PostValidInvalid, TagID=5001, TestCase =Create Valid Pet, ID=1001, Notes=}](1)" classname="tests.CreatePetTest" time="3.104">
+    <system-out><![CDATA[--------------------------------------------------
+START Running Test: testcreateValidData
+--------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="testcreateValidData[{Status=pending, ExpectedStatusCode=200, TagName=Vaccinated, TestCaseID=TC02, CatID=2002, CatName=Cats, Name=Kitty, Type=PostValidInvalid, TagID=5002, TestCase =Create Valid Pet - pending status, ID=1002, Notes=}](2)" classname="tests.CreatePetTest" time="1.391">
+    <system-out><![CDATA[PASSED testcreateValidData
+--------------------------------------------------
+START Running Test: testcreateValidData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testcreateValidData[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC04, CatID=2004, CatName=Reptiles, Name=LongNamexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Type=PostValidInvalid, TagID=5004, TestCase =Create Pet with Long Name Boundary, ID=1003, Notes=}](3)" classname="tests.CreatePetTest" time="1.389">
+    <system-out><![CDATA[PASSED testcreateValidData
+--------------------------------------------------
+START Running Test: testcreateValidData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testcreateValidData[{Status=flying, ExpectedStatusCode=200, TagName=Trained, TestCaseID=TC05, CatID=2005, CatName=Fish, Name=InvalidStatus, Type=PostValidInvalid, TagID=5005, TestCase =Create Pet with Invalid Status, ID=1004, Notes=}](4)" classname="tests.CreatePetTest" time="1.377">
+    <system-out><![CDATA[PASSED testcreateValidData
+--------------------------------------------------
+START Running Test: testcreateValidData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testcreateexistingPetID[{Status=available, ExpectedStatusCode=200, TagName=Adopted, TestCaseID=TC03, CatID=2003, CatName=Birds, Name=AnotherDog, Type=PostDuplicate, TagID=5003, TestCase =Create Duplicate Pet ID, ID=1001, Notes=}](1)" classname="tests.CreatePetTest" time="2.638">
+    <system-out><![CDATA[PASSED testcreateValidData
+--------------------------------------------------
+START Running Test: testcreateexistingPetID
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[{Status=available, ExpectedStatusCode=200, TagName=Friendly, TestCaseID=DDTC1, CatID=2001, CatName=Dogs, Name=Doggie, Type=DataDrivenPost, TagID=5001, TestCase =dataDrivenTests, ID=7501, Notes=}](1)" classname="dataDrivenTests.CreatePetDataDrivenTest" time="1.35">
+    <system-out><![CDATA[PASSED testcreateexistingPetID
+--------------------------------------------------
+START Running Test: testCreatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[{Status=pending, ExpectedStatusCode=200, TagName=Vaccinated, TestCaseID=DDTC2, CatID=2002, CatName=Cats, Name=Kitty, Type=DataDrivenPost, TagID=5002, TestCase =dataDrivenTests, ID=7502, Notes=}](2)" classname="dataDrivenTests.CreatePetDataDrivenTest" time="1.328">
+    <system-out><![CDATA[PASSED testCreatePet
+--------------------------------------------------
+START Running Test: testCreatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[{Status=available, ExpectedStatusCode=200, TagName=Adopted, TestCaseID=DDTC3, CatID=2003, CatName=Birds, Name=AnotherDog, Type=DataDrivenPost, TagID=5003, TestCase =dataDrivenTests, ID=7503, Notes=}](3)" classname="dataDrivenTests.CreatePetDataDrivenTest" time="1.374">
+    <system-out><![CDATA[PASSED testCreatePet
+--------------------------------------------------
+START Running Test: testCreatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteExistingPet[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC14, CatID=, CatName=, Name=, Type=DeleteExisting, TagID=, TestCase =Delete Existing Pet, ID=1001, Notes=}](1)" classname="tests.DeletePetTest" time="3.977">
+    <system-out><![CDATA[PASSED testCreatePet
+--------------------------------------------------
+START Running Test: testDeleteExistingPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testdeleteAlreadyDeletted[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC15, CatID=, CatName=, Name=, Type=AlreadyDeletted, TagID=, TestCase =Delete Already Deleted Pet, ID=1001, Notes=}](1)" classname="tests.DeletePetTest" time="3.973">
+    <system-out><![CDATA[PASSED testDeleteExistingPet
+--------------------------------------------------
+START Running Test: testdeleteAlreadyDeletted
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testdeleteInvalidPetData[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC17, CatID=, CatName=, Name=, Type=DeleteInvalidPet, TagID=, TestCase =Delete Pet with Invalid ID, ID=abc, Notes=}](1)" classname="tests.DeletePetTest" time="1.369">
+    <system-out><![CDATA[PASSED testdeleteAlreadyDeletted
+--------------------------------------------------
+START Running Test: testdeleteInvalidPetData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testdeletenonExistingPet[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC16, CatID=, CatName=, Name=, Type=DeleteNonExisting, TagID=, TestCase =Delete Non-Existing Pet, ID=999999, Notes=}](1)" classname="tests.DeletePetTest" time="2.639">
+    <system-out><![CDATA[PASSED testdeleteInvalidPetData
+--------------------------------------------------
+START Running Test: testdeletenonExistingPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC13, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=22222, Notes=}](1)" classname="dataDrivenTests.DeletePetDataDrivenTest" time="1.29">
+    <system-out><![CDATA[PASSED testdeletenonExistingPet
+--------------------------------------------------
+START Running Test: testDeletePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC14, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=9347, Notes=}](2)" classname="dataDrivenTests.DeletePetDataDrivenTest" time="1.322">
+    <system-out><![CDATA[PASSED testDeletePet
+--------------------------------------------------
+START Running Test: testDeletePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC15, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=88888, Notes=}](3)" classname="dataDrivenTests.DeletePetDataDrivenTest" time="1.296">
+    <system-out><![CDATA[PASSED testDeletePet
+--------------------------------------------------
+START Running Test: testDeletePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getByAvailableStatus[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=TC18, CatID=, CatName=, Name=, Type=ByAvailable, TagID=, TestCase =Find Pets by Status = Available, ID=, Notes=}](1)" classname="tests.FindByStatusTest" time="2.315">
+    <system-out><![CDATA[PASSED testDeletePet
+--------------------------------------------------
+START Running Test: getByAvailableStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getByBlankStatus[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=TC20, CatID=, CatName=, Name=, Type=findByblankStatus, TagID=, TestCase =Find Pets Missing Query Parameter, ID=, Notes=}](1)" classname="tests.FindByStatusTest" time="1.397">
+    <system-out><![CDATA[PASSED getByAvailableStatus
+--------------------------------------------------
+START Running Test: getByBlankStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getByUnknowStatus[{Status=unknownStatus, ExpectedStatusCode=200, TagName=, TestCaseID=TC19, CatID=, CatName=, Name=, Type=findByUnkonwntatus, TagID=, TestCase =Find Pets with Invalid Status (Returns Empty), ID=, Notes=}](1)" classname="tests.FindByStatusTest" time="1.314">
+    <system-out><![CDATA[PASSED getByBlankStatus
+--------------------------------------------------
+START Running Test: getByUnknowStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getBysoldStatus[{Status=sold, ExpectedStatusCode=200, TagName=, TestCaseID=TC21, CatID=, CatName=, Name=, Type=BySold, TagID=, TestCase =Find Pets by Status = Sold (All Returned Should Be Sold), ID=, Notes=}](1)" classname="tests.FindByStatusTest" time="1.456">
+    <system-out><![CDATA[PASSED getByUnknowStatus
+--------------------------------------------------
+START Running Test: getBysoldStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByStatus[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC10, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}](1)" classname="dataDrivenTests.FindByStatusDataDrivenTest" time="2.077">
+    <system-out><![CDATA[PASSED getBysoldStatus
+--------------------------------------------------
+START Running Test: testFindByStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByStatus[{Status=sold, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC11, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}](2)" classname="dataDrivenTests.FindByStatusDataDrivenTest" time="1.438">
+    <system-out><![CDATA[PASSED testFindByStatus
+--------------------------------------------------
+START Running Test: testFindByStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByStatus[{Status=pending, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC12, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}](3)" classname="dataDrivenTests.FindByStatusDataDrivenTest" time="1.438">
+    <system-out><![CDATA[PASSED testFindByStatus
+--------------------------------------------------
+START Running Test: testFindByStatus
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getDeletedPetTest[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC09, CatID=, CatName=, Name=, Type=DelettedPet, TagID=, TestCase =Get Deleted or Not Present Pet, ID=1005, Notes=}](1)" classname="tests.GetPetTest" time="2.664">
+    <system-out><![CDATA[PASSED testFindByStatus
+--------------------------------------------------
+START Running Test: getDeletedPetTest
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getNonInvalidPet[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC08, CatID=, CatName=, Name=, Type=invalidPetID, TagID=, TestCase =Get Pet with Invalid ID Format, ID=abc, Notes=}](1)" classname="tests.GetPetTest" time="1.327">
+    <system-out><![CDATA[PASSED getDeletedPetTest
+--------------------------------------------------
+START Running Test: getNonInvalidPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="getValidPet[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=TC06, CatID=, CatName=, Name=Doggie, Type=GetExisting, TagID=, TestCase =Get Existing Pet by ID, ID=1004, Notes=}](1)" classname="tests.GetPetTest" time="2.755">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at tests.GetPetTest.getValidPet(GetPetTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[PASSED getNonInvalidPet
+--------------------------------------------------
+START Running Test: getValidPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="nonexistingPet[{Status=sold, ExpectedStatusCode=404, TagName=, TestCaseID=TC07, CatID=, CatName=, Name=Ghost, Type=GetNonExisting, TagID=, TestCase =Get Non-Existing Pet, ID=99999999, Notes=}](1)" classname="tests.GetPetTest" time="2.692">
+    <system-out><![CDATA[FAILED getValidPet
+--------------------------------------------------
+START Running Test: nonexistingPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC7, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=1230005, Notes=}](1)" classname="dataDrivenTests.GetPetDataDrivenTest" time="1.317">
+    <system-out><![CDATA[PASSED nonexistingPet
+--------------------------------------------------
+START Running Test: testGetPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC8, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=5557777, Notes=}](2)" classname="dataDrivenTests.GetPetDataDrivenTest" time="1.337">
+    <system-out><![CDATA[PASSED testGetPet
+--------------------------------------------------
+START Running Test: testGetPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPet[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC9, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=99, Notes=}](3)" classname="dataDrivenTests.GetPetDataDrivenTest" time="1.359">
+    <system-out><![CDATA[PASSED testGetPet
+--------------------------------------------------
+START Running Test: testGetPet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="schemavaliationGetResponse" classname="tests.ScheaValidations" time="1.794">
+    <failure message="1 expectation failed.&#10;Response body doesn&apos;t match expectation.&#10;Expected: The content to match the given JSON schema.&#10;error: object has missing required properties ([&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;])&#10;    level: &quot;error&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#&quot;,&quot;pointer&quot;:&quot;&quot;}&#10;    instance: {&quot;pointer&quot;:&quot;&quot;}&#10;    domain: &quot;validation&quot;&#10;    keyword: &quot;required&quot;&#10;    required: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]&#10;    missing: [&quot;category&quot;,&quot;id&quot;,&quot;name&quot;,&quot;photoUrls&quot;,&quot;status&quot;,&quot;tags&quot;]&#10;&#10;  Actual: {&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":1,"type":"error","message":"Pet not found"}
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at tests.ScheaValidations.schemavaliationGetResponse(ScheaValidations.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[PASSED testGetPet
+--------------------------------------------------
+START Running Test: schemavaliationGetResponse
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=DDTC4, CatID=2004, CatName=Reptiles, Name=Doggie, Type=DataDrivenPut, TagID=5004, TestCase =dataDrivenTests, ID=7501, Notes=}](1)" classname="dataDrivenTests.UpdatePetDataDrivenTest" time="1.374">
+    <system-out><![CDATA[FAILED schemavaliationGetResponse
+--------------------------------------------------
+START Running Test: testUpdatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[{Status=flying, ExpectedStatusCode=200, TagName=Trained, TestCaseID=DDTC5, CatID=2005, CatName=Fish, Name=Kitty, Type=DataDrivenPut, TagID=5005, TestCase =dataDrivenTests, ID=7502, Notes=}](2)" classname="dataDrivenTests.UpdatePetDataDrivenTest" time="1.361">
+    <system-out><![CDATA[PASSED testUpdatePet
+--------------------------------------------------
+START Running Test: testUpdatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=DDTC6, CatID=2003, CatName=Birds, Name=AnotherDog, Type=DataDrivenPut, TagID=5004, TestCase =dataDrivenTests, ID=7503, Notes=}](3)" classname="dataDrivenTests.UpdatePetDataDrivenTest" time="1.395">
+    <system-out><![CDATA[PASSED testUpdatePet
+--------------------------------------------------
+START Running Test: testUpdatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[{Status=sold, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC10, CatID=2006, CatName=FarmAnimals, Name=Doggie, Type=updateExisting, TagID=5004, TestCase =Update Existing Pet, ID=1001, Notes=}](1)" classname="tests.UpdatePetTest" time="2.713">
+    <system-out><![CDATA[PASSED testUpdatePet
+--------------------------------------------------
+START Running Test: testUpdatePet
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testupdateNonexeistingPetData[{Status=sold, ExpectedStatusCode=200, TagName=Trained, TestCaseID=TC11, CatID=2007, CatName=ServiceAnimals, Name=Ghost, Type=PutNonExisting, TagID=5005, TestCase =Update Non-Existing Pet, ID=999999, Notes=}](1)" classname="tests.UpdatePetTest" time="2.716">
+    <system-out><![CDATA[PASSED testUpdatePet
+--------------------------------------------------
+START Running Test: testupdateNonexeistingPetData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testupdatewithInvaliddatagPetData[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=TC12, CatID=, CatName=, Name=, Type=Putinvalidata, TagID=, TestCase =Update Pet with Invalid JSON, ID=1006, Notes=}](1)" classname="tests.UpdatePetTest" time="1.375">
+    <system-out><![CDATA[PASSED testupdateNonexeistingPetData
+--------------------------------------------------
+START Running Test: testupdatewithInvaliddatagPetData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testupdatewithMissingIDPetData[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC13, CatID=2008, CatName=SmallPets, Name=NoID, Type=PutWithoutID, TagID=5004, TestCase =Update Pet Missing ID, ID=, Notes=}](1)" classname="tests.UpdatePetTest" time="1.35">
+    <system-out><![CDATA[PASSED testupdatewithInvaliddatagPetData
+--------------------------------------------------
+START Running Test: testupdatewithMissingIDPetData
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>

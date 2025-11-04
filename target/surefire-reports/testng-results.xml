@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="35" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testcreateValidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testcreateexistingPetID]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testcreateexistingPetID]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testCreatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testDeleteExistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testDeleteExistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testdeleteAlreadyDeletted]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testdeleteAlreadyDeletted]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testdeleteInvalidPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testdeleteInvalidPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testdeletenonExistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testdeletenonExistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testDeletePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getByAvailableStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getByAvailableStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getByBlankStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getByBlankStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getByUnknowStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getByUnknowStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getBysoldStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getBysoldStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testFindByStatus]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getDeletedPetTest]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getDeletedPetTest]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getNonInvalidPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED getNonInvalidPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: getValidPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[FAILED getValidPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: nonexistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED nonexistingPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testGetPet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: schemavaliationGetResponse]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[FAILED schemavaliationGetResponse]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testUpdatePet]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testupdateNonexeistingPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testupdateNonexeistingPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testupdatewithInvaliddatagPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testupdatewithInvaliddatagPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[START Running Test: testupdatewithMissingIDPetData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[PASSED testupdatewithMissingIDPetData]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-04T11:51:16 IST" name="PetStoreAPIAutomationSuite" finished-at="2025-11-04T11:52:33 IST" duration-ms="77468">
+    <groups>
+    </groups>
+    <test started-at="2025-11-04T11:51:16 IST" name="Swagger Petstore API Tests" finished-at="2025-11-04T11:52:33 IST" duration-ms="77468">
+      <class name="tests.ScheaValidations">
+        <test-method signature="schemavaliationGetResponse()[pri:0, instance:tests.ScheaValidations@5db6b9cd]" started-at="2025-11-04T11:52:19 IST" name="schemavaliationGetResponse" finished-at="2025-11-04T11:52:21 IST" duration-ms="1802" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":1,"type":"error","message":"Pet not found"}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/Users/Abhishek%20Bulbule/Downloads/Personal%20workspace/Personal%20workspace/PetStoreAPIAutomation/target/test-classes/schemas/GetResponseSchema.json#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":1,"type":"error","message":"Pet not found"}
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at tests.ScheaValidations.schemavaliationGetResponse(ScheaValidations.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemavaliationGetResponse -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.ScheaValidations@5db6b9cd]" started-at="2025-11-04T11:52:19 IST" name="setupPerTest" finished-at="2025-11-04T11:52:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ScheaValidations.schemavaliationGetResponse()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: schemavaliationGetResponse]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.ScheaValidations@5db6b9cd]" started-at="2025-11-04T11:52:21 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:21 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=schemavaliationGetResponse status=FAILURE method=ScheaValidations.schemavaliationGetResponse()[pri:0, instance:tests.ScheaValidations@5db6b9cd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FAILED schemavaliationGetResponse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- tests.ScheaValidations -->
+      <class name="tests.CreatePetTest">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:16 IST" name="globalSetup" finished-at="2025-11-04T11:51:16 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:17 IST" name="setupPerTest" finished-at="2025-11-04T11:51:17 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CreatePetTest.testcreateValidData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testcreateValidData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:17 IST" name="testcreateValidData" description="Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05" data-provider="CreateValidInvalid" finished-at="2025-11-04T11:51:20 IST" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=Friendly, TestCaseID=TC01, CatID=2001, CatName=Dogs, Name=Doggie, Type=PostValidInvalid, TagID=5001, TestCase =Create Valid Pet, ID=1001, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateValidData -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:20 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:20 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateValidData status=SUCCESS method=CreatePetTest.testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testcreateValidData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:20 IST" name="testcreateValidData" description="Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05" data-provider="CreateValidInvalid" finished-at="2025-11-04T11:51:21 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=pending, ExpectedStatusCode=200, TagName=Vaccinated, TestCaseID=TC02, CatID=2002, CatName=Cats, Name=Kitty, Type=PostValidInvalid, TagID=5002, TestCase =Create Valid Pet - pending status, ID=1002, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateValidData -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:20 IST" name="setupPerTest" finished-at="2025-11-04T11:51:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CreatePetTest.testcreateValidData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testcreateValidData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:21 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:21 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateValidData status=SUCCESS method=CreatePetTest.testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testcreateValidData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:21 IST" name="testcreateValidData" description="Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05" data-provider="CreateValidInvalid" finished-at="2025-11-04T11:51:23 IST" duration-ms="1389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC04, CatID=2004, CatName=Reptiles, Name=LongNamexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Type=PostValidInvalid, TagID=5004, TestCase =Create Pet with Long Name Boundary, ID=1003, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateValidData -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:21 IST" name="setupPerTest" finished-at="2025-11-04T11:51:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CreatePetTest.testcreateValidData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testcreateValidData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:23 IST" name="testcreateValidData" description="Create a Pet with valid/invalid Data TC01,TC02,TC04,TC05" data-provider="CreateValidInvalid" finished-at="2025-11-04T11:51:24 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=flying, ExpectedStatusCode=200, TagName=Trained, TestCaseID=TC05, CatID=2005, CatName=Fish, Name=InvalidStatus, Type=PostValidInvalid, TagID=5005, TestCase =Create Pet with Invalid Status, ID=1004, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateValidData -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:23 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateValidData status=SUCCESS method=CreatePetTest.testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testcreateValidData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:23 IST" name="setupPerTest" finished-at="2025-11-04T11:51:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CreatePetTest.testcreateValidData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testcreateValidData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:24 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateValidData status=SUCCESS method=CreatePetTest.testcreateValidData(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testcreateValidData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testcreateexistingPetID(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:24 IST" name="testcreateexistingPetID" description="TC04 Post Duplicate Data" data-provider="createexistingPetID" finished-at="2025-11-04T11:51:27 IST" duration-ms="2638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=Adopted, TestCaseID=TC03, CatID=2003, CatName=Birds, Name=AnotherDog, Type=PostDuplicate, TagID=5003, TestCase =Create Duplicate Pet ID, ID=1001, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreateexistingPetID -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:24 IST" name="setupPerTest" finished-at="2025-11-04T11:51:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CreatePetTest.testcreateexistingPetID(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testcreateexistingPetID]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:27 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcreateexistingPetID status=SUCCESS method=CreatePetTest.testcreateexistingPetID(java.util.Map)[pri:0, instance:tests.CreatePetTest@79207381] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testcreateexistingPetID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="flushingPet()[pri:0, instance:tests.CreatePetTest@79207381]" started-at="2025-11-04T11:51:27 IST" name="flushingPet" finished-at="2025-11-04T11:51:33 IST" duration-ms="6651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingPet -->
+      </class> <!-- tests.CreatePetTest -->
+      <class name="dataDrivenTests.FindByStatusDataDrivenTest">
+        <test-method signature="testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:00 IST" name="testFindByStatus" description="DDTC10-DDTC12 Data Driven Get by status Test Cases" data-provider="findByStatusData" finished-at="2025-11-04T11:52:02 IST" duration-ms="2077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC10, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByStatus -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:00 IST" name="setupPerTest" finished-at="2025-11-04T11:52:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testFindByStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:02 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:02 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindByStatus status=SUCCESS method=FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testFindByStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:02 IST" name="testFindByStatus" description="DDTC10-DDTC12 Data Driven Get by status Test Cases" data-provider="findByStatusData" finished-at="2025-11-04T11:52:04 IST" duration-ms="1441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=sold, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC11, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByStatus -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:02 IST" name="setupPerTest" finished-at="2025-11-04T11:52:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testFindByStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:04 IST" name="testFindByStatus" description="DDTC10-DDTC12 Data Driven Get by status Test Cases" data-provider="findByStatusData" finished-at="2025-11-04T11:52:05 IST" duration-ms="1435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=pending, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC12, CatID=, CatName=, Name=, Type=DataDrivenGETbystatus, TagID=, TestCase =dataDrivenTests, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByStatus -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:04 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindByStatus status=SUCCESS method=FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testFindByStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:04 IST" name="setupPerTest" finished-at="2025-11-04T11:52:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testFindByStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e]" started-at="2025-11-04T11:52:05 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindByStatus status=SUCCESS method=FindByStatusDataDrivenTest.testFindByStatus(java.util.Map)[pri:0, instance:dataDrivenTests.FindByStatusDataDrivenTest@6f15d60e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testFindByStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- dataDrivenTests.FindByStatusDataDrivenTest -->
+      <class name="tests.FindByStatusTest">
+        <test-method signature="getByAvailableStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:54 IST" name="getByAvailableStatus" description="TC18 Find by Available status Test Case" data-provider="findByAvailableStatus" finished-at="2025-11-04T11:51:56 IST" duration-ms="2307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=TC18, CatID=, CatName=, Name=, Type=ByAvailable, TagID=, TestCase =Find Pets by Status = Available, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByAvailableStatus -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:54 IST" name="setupPerTest" finished-at="2025-11-04T11:51:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindByStatusTest.getByAvailableStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getByAvailableStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:56 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getByAvailableStatus status=SUCCESS method=FindByStatusTest.getByAvailableStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getByAvailableStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:56 IST" name="setupPerTest" finished-at="2025-11-04T11:51:56 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindByStatusTest.getByBlankStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getByBlankStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="getByBlankStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:56 IST" name="getByBlankStatus" description="TC20 Find by blank status Test Case" data-provider="findByblankStatus" finished-at="2025-11-04T11:51:57 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=TC20, CatID=, CatName=, Name=, Type=findByblankStatus, TagID=, TestCase =Find Pets Missing Query Parameter, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByBlankStatus -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:57 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getByBlankStatus status=SUCCESS method=FindByStatusTest.getByBlankStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getByBlankStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="getByUnknowStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:57 IST" name="getByUnknowStatus" description="TC19 Find by unkonwn status Test Case" data-provider="findByUnkonwntatus" finished-at="2025-11-04T11:51:59 IST" duration-ms="1314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=unknownStatus, ExpectedStatusCode=200, TagName=, TestCaseID=TC19, CatID=, CatName=, Name=, Type=findByUnkonwntatus, TagID=, TestCase =Find Pets with Invalid Status (Returns Empty), ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByUnknowStatus -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:57 IST" name="setupPerTest" finished-at="2025-11-04T11:51:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindByStatusTest.getByUnknowStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getByUnknowStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:59 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:59 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getByUnknowStatus status=SUCCESS method=FindByStatusTest.getByUnknowStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getByUnknowStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="getBysoldStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:59 IST" name="getBysoldStatus" description="TC21 Find by sold status Test Case" data-provider="findBysoldStatus" finished-at="2025-11-04T11:52:00 IST" duration-ms="1456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=sold, ExpectedStatusCode=200, TagName=, TestCaseID=TC21, CatID=, CatName=, Name=, Type=BySold, TagID=, TestCase =Find Pets by Status = Sold (All Returned Should Be Sold), ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBysoldStatus -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:51:59 IST" name="setupPerTest" finished-at="2025-11-04T11:51:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindByStatusTest.getBysoldStatus(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getBysoldStatus]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.FindByStatusTest@4b520ea8]" started-at="2025-11-04T11:52:00 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:00 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBysoldStatus status=SUCCESS method=FindByStatusTest.getBysoldStatus(java.util.Map)[pri:0, instance:tests.FindByStatusTest@4b520ea8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getBysoldStatus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- tests.FindByStatusTest -->
+      <class name="tests.GetPetTest">
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:05 IST" name="setupPerTest" finished-at="2025-11-04T11:52:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GetPetTest.getDeletedPetTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getDeletedPetTest]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="getDeletedPetTest(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:05 IST" name="getDeletedPetTest" description="Get deletted Pet TC09" data-provider="DeletedPet" finished-at="2025-11-04T11:52:08 IST" duration-ms="2660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC09, CatID=, CatName=, Name=, Type=DelettedPet, TagID=, TestCase =Get Deleted or Not Present Pet, ID=1005, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDeletedPetTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:08 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:08 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getDeletedPetTest status=SUCCESS method=GetPetTest.getDeletedPetTest(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getDeletedPetTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="getNonInvalidPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:08 IST" name="getNonInvalidPet" description="Get invalid ID Pet TC08" data-provider="invalidPetID" finished-at="2025-11-04T11:52:09 IST" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC08, CatID=, CatName=, Name=, Type=invalidPetID, TagID=, TestCase =Get Pet with Invalid ID Format, ID=abc, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNonInvalidPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:08 IST" name="setupPerTest" finished-at="2025-11-04T11:52:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GetPetTest.getNonInvalidPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getNonInvalidPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:09 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:09 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getNonInvalidPet status=SUCCESS method=GetPetTest.getNonInvalidPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED getNonInvalidPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="getValidPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:09 IST" name="getValidPet" description="Get exting Pet TC06" data-provider="validPet" finished-at="2025-11-04T11:52:12 IST" duration-ms="2740" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=, TestCaseID=TC06, CatID=, CatName=, Name=Doggie, Type=GetExisting, TagID=, TestCase =Get Existing Pet by ID, ID=1004, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at tests.GetPetTest.getValidPet(GetPetTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:09 IST" name="setupPerTest" finished-at="2025-11-04T11:52:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GetPetTest.getValidPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: getValidPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:12 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:12 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getValidPet status=FAILURE method=GetPetTest.getValidPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FAILED getValidPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:12 IST" name="setupPerTest" finished-at="2025-11-04T11:52:12 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GetPetTest.nonexistingPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: nonexistingPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="nonexistingPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:12 IST" name="nonexistingPet" description="Get  non exting Pet TC07" data-provider="nonexting" finished-at="2025-11-04T11:52:15 IST" duration-ms="2676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=sold, ExpectedStatusCode=404, TagName=, TestCaseID=TC07, CatID=, CatName=, Name=Ghost, Type=GetNonExisting, TagID=, TestCase =Get Non-Existing Pet, ID=99999999, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonexistingPet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.GetPetTest@6b09fb41]" started-at="2025-11-04T11:52:15 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonexistingPet status=SUCCESS method=GetPetTest.nonexistingPet(java.util.Map)[pri:0, instance:tests.GetPetTest@6b09fb41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED nonexistingPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- tests.GetPetTest -->
+      <class name="tests.DeletePetTest">
+        <test-method signature="testDeleteExistingPet(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:37 IST" name="testDeleteExistingPet" description="Deletting Existing PetTC14 " data-provider="deleteExistingPet" finished-at="2025-11-04T11:51:41 IST" duration-ms="3975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC14, CatID=, CatName=, Name=, Type=DeleteExisting, TagID=, TestCase =Delete Existing Pet, ID=1001, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteExistingPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:37 IST" name="setupPerTest" finished-at="2025-11-04T11:51:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeletePetTest.testDeleteExistingPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testDeleteExistingPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:41 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:41 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteExistingPet status=SUCCESS method=DeletePetTest.testDeleteExistingPet(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testDeleteExistingPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testdeleteAlreadyDeletted(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:41 IST" name="testdeleteAlreadyDeletted" description="Deletting already Delettted Pet TC15 " data-provider="deleteAlreadyDeletted" finished-at="2025-11-04T11:51:45 IST" duration-ms="3973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC15, CatID=, CatName=, Name=, Type=AlreadyDeletted, TagID=, TestCase =Delete Already Deleted Pet, ID=1001, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteAlreadyDeletted -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:41 IST" name="setupPerTest" finished-at="2025-11-04T11:51:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeletePetTest.testdeleteAlreadyDeletted(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testdeleteAlreadyDeletted]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:45 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testdeleteAlreadyDeletted status=SUCCESS method=DeletePetTest.testdeleteAlreadyDeletted(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testdeleteAlreadyDeletted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testdeleteInvalidPetData(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:45 IST" name="testdeleteInvalidPetData" description="TC17 Delete invalid ID pet" data-provider="deleteInvalidPetData" finished-at="2025-11-04T11:51:47 IST" duration-ms="1366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC17, CatID=, CatName=, Name=, Type=DeleteInvalidPet, TagID=, TestCase =Delete Pet with Invalid ID, ID=abc, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeleteInvalidPetData -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:45 IST" name="setupPerTest" finished-at="2025-11-04T11:51:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeletePetTest.testdeleteInvalidPetData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testdeleteInvalidPetData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:47 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testdeleteInvalidPetData status=SUCCESS method=DeletePetTest.testdeleteInvalidPetData(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testdeleteInvalidPetData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testdeletenonExistingPet(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:47 IST" name="testdeletenonExistingPet" description="Deletting non existing Pet TC16 " data-provider="deletenonExistingPet" finished-at="2025-11-04T11:51:49 IST" duration-ms="2643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=404, TagName=, TestCaseID=TC16, CatID=, CatName=, Name=, Type=DeleteNonExisting, TagID=, TestCase =Delete Non-Existing Pet, ID=999999, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeletenonExistingPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:47 IST" name="setupPerTest" finished-at="2025-11-04T11:51:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeletePetTest.testdeletenonExistingPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testdeletenonExistingPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.DeletePetTest@5a5a729f]" started-at="2025-11-04T11:51:49 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testdeletenonExistingPet status=SUCCESS method=DeletePetTest.testdeletenonExistingPet(java.util.Map)[pri:0, instance:tests.DeletePetTest@5a5a729f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testdeletenonExistingPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- tests.DeletePetTest -->
+      <class name="dataDrivenTests.UpdatePetDataDrivenTest">
+        <test-method signature="testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:21 IST" name="testUpdatePet" description="DDTC4-DDTC6 Data Driven Update Test Cases" data-provider="updatePetData" finished-at="2025-11-04T11:52:22 IST" duration-ms="1374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=DDTC4, CatID=2004, CatName=Reptiles, Name=Doggie, Type=DataDrivenPut, TagID=5004, TestCase =dataDrivenTests, ID=7501, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:21 IST" name="setupPerTest" finished-at="2025-11-04T11:52:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testUpdatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:22 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:22 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePet status=SUCCESS method=UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testUpdatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:22 IST" name="setupPerTest" finished-at="2025-11-04T11:52:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testUpdatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:22 IST" name="testUpdatePet" description="DDTC4-DDTC6 Data Driven Update Test Cases" data-provider="updatePetData" finished-at="2025-11-04T11:52:24 IST" duration-ms="1362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=flying, ExpectedStatusCode=200, TagName=Trained, TestCaseID=DDTC5, CatID=2005, CatName=Fish, Name=Kitty, Type=DataDrivenPut, TagID=5005, TestCase =dataDrivenTests, ID=7502, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:24 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:24 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePet status=SUCCESS method=UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testUpdatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:24 IST" name="testUpdatePet" description="DDTC4-DDTC6 Data Driven Update Test Cases" data-provider="updatePetData" finished-at="2025-11-04T11:52:25 IST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=DDTC6, CatID=2003, CatName=Birds, Name=AnotherDog, Type=DataDrivenPut, TagID=5004, TestCase =dataDrivenTests, ID=7503, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:24 IST" name="setupPerTest" finished-at="2025-11-04T11:52:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testUpdatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b]" started-at="2025-11-04T11:52:25 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:25 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePet status=SUCCESS method=UpdatePetDataDrivenTest.testUpdatePet(java.util.Map)[pri:0, instance:dataDrivenTests.UpdatePetDataDrivenTest@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testUpdatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- dataDrivenTests.UpdatePetDataDrivenTest -->
+      <class name="dataDrivenTests.DeletePetDataDrivenTest">
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:50 IST" name="setupPerTest" finished-at="2025-11-04T11:51:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.DeletePetDataDrivenTest.testDeletePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testDeletePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:50 IST" name="testDeletePet" description="DDTC13-DDTC15 Data Driven Delete Test cases" data-provider="deletePetData" finished-at="2025-11-04T11:51:51 IST" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC13, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=22222, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:51 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeletePet status=SUCCESS method=DeletePetDataDrivenTest.testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testDeletePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:51 IST" name="testDeletePet" description="DDTC13-DDTC15 Data Driven Delete Test cases" data-provider="deletePetData" finished-at="2025-11-04T11:51:52 IST" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC14, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=9347, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:51 IST" name="setupPerTest" finished-at="2025-11-04T11:51:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.DeletePetDataDrivenTest.testDeletePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testDeletePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:52 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeletePet status=SUCCESS method=DeletePetDataDrivenTest.testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testDeletePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:52 IST" name="setupPerTest" finished-at="2025-11-04T11:51:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.DeletePetDataDrivenTest.testDeletePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testDeletePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:52 IST" name="testDeletePet" description="DDTC13-DDTC15 Data Driven Delete Test cases" data-provider="deletePetData" finished-at="2025-11-04T11:51:53 IST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC15, CatID=, CatName=, Name=, Type=DataDrivenDelete, TagID=, TestCase =dataDrivenTests, ID=88888, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2]" started-at="2025-11-04T11:51:53 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeletePet status=SUCCESS method=DeletePetDataDrivenTest.testDeletePet(java.util.Map)[pri:0, instance:dataDrivenTests.DeletePetDataDrivenTest@7857fe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testDeletePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- dataDrivenTests.DeletePetDataDrivenTest -->
+      <class name="tests.UpdatePetTest">
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:25 IST" name="setupPerTest" finished-at="2025-11-04T11:52:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdatePetTest.testUpdatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testUpdatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testUpdatePet(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:25 IST" name="testUpdatePet" description="TC10 update existing pet Data" data-provider="updatePetData" finished-at="2025-11-04T11:52:28 IST" duration-ms="2697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=sold, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC10, CatID=2006, CatName=FarmAnimals, Name=Doggie, Type=updateExisting, TagID=5004, TestCase =Update Existing Pet, ID=1001, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:28 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePet status=SUCCESS method=UpdatePetTest.testUpdatePet(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testUpdatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testupdateNonexeistingPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:28 IST" name="testupdateNonexeistingPetData" description="TC11 updating non existing Pet" data-provider="updateNonexeistingPetData" finished-at="2025-11-04T11:52:30 IST" duration-ms="2716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=sold, ExpectedStatusCode=200, TagName=Trained, TestCaseID=TC11, CatID=2007, CatName=ServiceAnimals, Name=Ghost, Type=PutNonExisting, TagID=5005, TestCase =Update Non-Existing Pet, ID=999999, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdateNonexeistingPetData -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:28 IST" name="setupPerTest" finished-at="2025-11-04T11:52:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdatePetTest.testupdateNonexeistingPetData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testupdateNonexeistingPetData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:30 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testupdateNonexeistingPetData status=SUCCESS method=UpdatePetTest.testupdateNonexeistingPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testupdateNonexeistingPetData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testupdatewithInvaliddatagPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:31 IST" name="testupdatewithInvaliddatagPetData" description="TC12 update with invalid Json" data-provider="updatewithInvaliddatagPetData" finished-at="2025-11-04T11:52:32 IST" duration-ms="1380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=TC12, CatID=, CatName=, Name=, Type=Putinvalidata, TagID=, TestCase =Update Pet with Invalid JSON, ID=1006, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdatewithInvaliddatagPetData -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:31 IST" name="setupPerTest" finished-at="2025-11-04T11:52:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdatePetTest.testupdatewithInvaliddatagPetData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testupdatewithInvaliddatagPetData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:32 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testupdatewithInvaliddatagPetData status=SUCCESS method=UpdatePetTest.testupdatewithInvaliddatagPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testupdatewithInvaliddatagPetData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:32 IST" name="setupPerTest" finished-at="2025-11-04T11:52:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdatePetTest.testupdatewithMissingIDPetData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testupdatewithMissingIDPetData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testupdatewithMissingIDPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:32 IST" name="testupdatewithMissingIDPetData" description="TC13 Update without ID" data-provider="updatewithMissingIDPetData" finished-at="2025-11-04T11:52:33 IST" duration-ms="1352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=NewArrival, TestCaseID=TC13, CatID=2008, CatName=SmallPets, Name=NoID, Type=PutWithoutID, TagID=5004, TestCase =Update Pet Missing ID, ID=, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdatewithMissingIDPetData -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:tests.UpdatePetTest@210ab13f]" started-at="2025-11-04T11:52:33 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:33 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testupdatewithMissingIDPetData status=SUCCESS method=UpdatePetTest.testupdatewithMissingIDPetData(java.util.Map)[pri:0, instance:tests.UpdatePetTest@210ab13f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testupdatewithMissingIDPetData]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- tests.UpdatePetTest -->
+      <class name="dataDrivenTests.CreatePetDataDrivenTest">
+        <test-method signature="testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:33 IST" name="testCreatePet" description="DDTC1-DDTC3 Data Driven Post Test Cases" data-provider="createPetData" finished-at="2025-11-04T11:51:35 IST" duration-ms="1347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=Friendly, TestCaseID=DDTC1, CatID=2001, CatName=Dogs, Name=Doggie, Type=DataDrivenPost, TagID=5001, TestCase =dataDrivenTests, ID=7501, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:33 IST" name="setupPerTest" finished-at="2025-11-04T11:51:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.CreatePetDataDrivenTest.testCreatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testCreatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:35 IST" name="testCreatePet" description="DDTC1-DDTC3 Data Driven Post Test Cases" data-provider="createPetData" finished-at="2025-11-04T11:51:36 IST" duration-ms="1314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=pending, ExpectedStatusCode=200, TagName=Vaccinated, TestCaseID=DDTC2, CatID=2002, CatName=Cats, Name=Kitty, Type=DataDrivenPost, TagID=5002, TestCase =dataDrivenTests, ID=7502, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:35 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePet status=SUCCESS method=CreatePetDataDrivenTest.testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testCreatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:35 IST" name="setupPerTest" finished-at="2025-11-04T11:51:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.CreatePetDataDrivenTest.testCreatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testCreatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:36 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePet status=SUCCESS method=CreatePetDataDrivenTest.testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testCreatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:36 IST" name="testCreatePet" description="DDTC1-DDTC3 Data Driven Post Test Cases" data-provider="createPetData" finished-at="2025-11-04T11:51:37 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=available, ExpectedStatusCode=200, TagName=Adopted, TestCaseID=DDTC3, CatID=2003, CatName=Birds, Name=AnotherDog, Type=DataDrivenPost, TagID=5003, TestCase =dataDrivenTests, ID=7503, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:36 IST" name="setupPerTest" finished-at="2025-11-04T11:51:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.CreatePetDataDrivenTest.testCreatePet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testCreatePet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a]" started-at="2025-11-04T11:51:37 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:51:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePet status=SUCCESS method=CreatePetDataDrivenTest.testCreatePet(java.util.Map)[pri:0, instance:dataDrivenTests.CreatePetDataDrivenTest@20b2475a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testCreatePet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- dataDrivenTests.CreatePetDataDrivenTest -->
+      <class name="dataDrivenTests.GetPetDataDrivenTest">
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:15 IST" name="setupPerTest" finished-at="2025-11-04T11:52:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.GetPetDataDrivenTest.testGetPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testGetPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method signature="testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:15 IST" name="testGetPet" description="DDTC7-DDTC9 DataDriven Get By ID" data-provider="getPetData" finished-at="2025-11-04T11:52:16 IST" duration-ms="1317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC7, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=1230005, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:16 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:16 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPet status=SUCCESS method=GetPetDataDrivenTest.testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testGetPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:16 IST" name="testGetPet" description="DDTC7-DDTC9 DataDriven Get By ID" data-provider="getPetData" finished-at="2025-11-04T11:52:18 IST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC8, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=5557777, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:16 IST" name="setupPerTest" finished-at="2025-11-04T11:52:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.GetPetDataDrivenTest.testGetPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testGetPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:18 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:18 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPet status=SUCCESS method=GetPetDataDrivenTest.testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testGetPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+        <test-method signature="testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:18 IST" name="testGetPet" description="DDTC7-DDTC9 DataDriven Get By ID" data-provider="getPetData" finished-at="2025-11-04T11:52:19 IST" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, ExpectedStatusCode=200, TagName=, TestCaseID=DDTC9, CatID=, CatName=, Name=, Type=DataDrivenGETbyID, TagID=, TestCase =dataDrivenTests, ID=99, Notes=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+        <test-method is-config="true" signature="setupPerTest(java.lang.reflect.Method)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:18 IST" name="setupPerTest" finished-at="2025-11-04T11:52:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void dataDrivenTests.GetPetDataDrivenTest.testGetPet(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[START Running Test: testGetPet]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupPerTest -->
+        <test-method is-config="true" signature="attachLogsToAllure(org.testng.ITestResult)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a]" started-at="2025-11-04T11:52:19 IST" name="attachLogsToAllure" finished-at="2025-11-04T11:52:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPet status=SUCCESS method=GetPetDataDrivenTest.testGetPet(java.util.Map)[pri:0, instance:dataDrivenTests.GetPetDataDrivenTest@1be2019a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED testGetPet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachLogsToAllure -->
+      </class> <!-- dataDrivenTests.GetPetDataDrivenTest -->
+    </test> <!-- Swagger Petstore API Tests -->
+  </suite> <!-- PetStoreAPIAutomationSuite -->
+</testng-results>
